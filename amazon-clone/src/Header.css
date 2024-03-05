@@ -2,6 +2,9 @@
     background-color: #131A22;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:100 ;
 }
 .header__logo{
     width: 100px;
@@ -18,9 +21,49 @@
     padding: 10px;
     border: none;
     width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .header__searchIcon{
     padding: 5px;
     height:22px !important;
     background-color:#FEBD69 ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header__linkBar{
+    display: flex;
+    justify-content: space-evenly;/*it give space evenly when it become bigger sizer*/
+
+}
+.header__link{
+    color: white;
+    text-decoration: none;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__option:hover{
+    border: solid 1px white;
+}
+
+.header__opLone{
+    font-size: 10px;
+}
+.header__opLtwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket{
+    display:flex;
+    align-items: center;
+}
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
 }
