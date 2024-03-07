@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Header";
-import Home from "./Home";
-import Checkout from "./Checkout";
+import Header from "./Components/Header";
+import Home from "./Components/Home";
+import Chekout from "./Components/Checkout";
 function App() {
   const [cart, setCart]=useState([]);
 
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/checkout" element={<Checkout cart={cart}/>} />
+          <Route path="/checkout" element={<Chekout cart={cart}/>} />
           <Route path="/login" element={<h1>Login page</h1>} />
           {/* This is the default route */}
           <Route
