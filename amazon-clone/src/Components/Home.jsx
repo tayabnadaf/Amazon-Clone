@@ -16,7 +16,7 @@ function Home({ onAddToCart }) {
       <div className="home__row">
         <Product
           id="1233"
-          title="rellme narzo 60X 5G（Stellar Green,6GB,128GB Storage ） Up to 2TB External Memory | 50 MP AI Primary Camera | Segments only 33W Supervooc Charge"
+          title="rellme narzo 60X 5G (Stellar Green,6GB,128GB Storag) Up to 2TB External Memory | 50 MP AI Primary Camera | Segments only 33W Supervooc Charge"
           price={11.96}
           rating={5}
           image="https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"
